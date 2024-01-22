@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO_URL = 'https://github.com/namratasgit/pipeline1.git'
-        NGINX_PATH = 'C:\\Users\\user\\Desktop\\Namrata_Das_PU\\Fall_AY_2023-24\\DevOps\\installers\\nginx-1.24.0\\htmldocs'
+        GIT_REPO_URL = 'https://github.com/joy546278/jkpipeline.git'
+        NGINX_PATH = 'C:\Users\ASUS\Desktop\DEVOPS'
     }
 
     stages {
