@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GIT_REPO_URL = 'https://github.com/joy546278/jkpipeline.git'
-        NGINX_PATH = 'C:\Users\ASUS\Desktop\DEVOPSD:\ngninx\nginx-1.25.3\nginx-1.25.3\html_docs'
+        NGINX_PATH = 'D:\\nginx\\nginx-1.25.3\\nginx-1.25.3\\html_docs'
     }
 
     stages {
@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     // Using the Jenkins workspace variable to reference files
-                    bat 'xcopy /y "D:\nginx\nginx-1.25.3\nginx-1.25.3\html_docs\index.html" "%NGINX_PATH%"'
+                    bat 'xcopy /y "C:\\Users\\ASUS\\Desktop\\DNSJ\\index.html" "%NGINX_PATH%"'
                 }
             }
         }
